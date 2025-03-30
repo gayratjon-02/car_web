@@ -1,3 +1,17 @@
-
+html {
+  color: red;
+}
+html body {
+  font-family: serif;
+}
+html h1 {
+  color: blue;
+}
+html h1 p {
+  color: red;
+}
+html h1 p img i {
+  color: red;
+}
 
 /*# sourceMappingURL=bill.css.map */

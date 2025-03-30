@@ -112,9 +112,33 @@
   letter-spacing: 0%;
 }
 
-.car_info_frame {
+.brands_frame {
+  margin-top: 65px;
   width: 100%;
   height: auto;
+}
+.brands_frame .container {
+  margin: 0 auto;
+  height: 340px;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgba(0, 0, 0, 0.217);
+}
+.brands_frame .container .brands_wrapper {
+  width: 1560px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.brands_frame .container .brands_wrapper .brands_box {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brands_frame .container .brands_wrapper .brands_box img {
+  border: 1px dashed rgba(128, 128, 128, 0.221);
 }
 
 /*# sourceMappingURL=home.css.map */
