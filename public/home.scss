@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 // adv_frame
 
 .adv_frame{
@@ -320,6 +314,7 @@
 
             }
             
+            
 
         }
 
@@ -329,6 +324,211 @@
 
 
 
+// popular_cars_frame
 
+
+
+
+.popular_cars_frame{
+    margin-top: 110px;
+    width: 100%;
+    height: auto;
+
+    .container{
+        padding: 110px 0;
+        margin: 0 auto;
+        height: 1014px;
+
+        flex-direction: column;
+        align-items: center;
+
+        .popular_top{
+            width: 674px;
+            height: 112px;  
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+             span{
+                color: rgba(39, 45, 49, 0.3);
+                font-family: Poppins;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: 40px;
+                letter-spacing: 0%;
+             }
+
+             strong{
+                color: rgb(39, 45, 49);
+                font-family: Poppins;
+                font-size: 42px;
+                font-weight: 600;
+                line-height: 64px;
+                letter-spacing: 0%;
+
+             }
+
+        }
+
+        .popular_middle{
+            margin: 80px 0;
+            width: 1720px;
+            height: 464px;
+
+            display: flex;
+            justify-content: space-around;
+
+            .cars_box{
+                padding: 32px;
+                width: 400px;
+                height: 464px;
+
+                box-sizing: border-box;
+                border-radius: 24px;
+
+                box-shadow: 0px 16px 32px 6px rgba(15, 49, 92, 0.05);
+                background: rgb(255, 255, 255);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                strong{
+                    color: rgb(39, 45, 49);
+                    font-family: Poppins;
+                    font-size: 26px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    letter-spacing: 0%;
+                }
+
+                span{
+                    color: rgba(39, 45, 49, 0.5);
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 26px;
+                    letter-spacing: 0%;
+                }
+
+                .img_box{
+                    width: 336px;
+                    height: 130px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                .car_futures{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+
+                    .futures_box{
+                        // width: 89px;
+                        // height: auto;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        i{
+                          width: 14px; 
+                          height: 14px; 
+                        }
+
+                        p{
+                            margin-left: 12px;
+                            color: rgb(39, 45, 49);
+                            font-family: Poppins;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 26px;
+                            letter-spacing: 0%;
+
+                        }
+
+
+                    }
+
+
+
+                }
+
+
+                .middle_bott{
+                    width: 336px;
+                    height: 58px;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    
+
+                    button{
+                        width: 155px;
+                        height: 100%;
+
+                        border-radius: 8px;
+                        background: rgb(48, 131, 255);
+
+                        color: rgb(255, 255, 255);
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 26px;
+                        letter-spacing: 0%;
+
+                    }
+                }
+
+
+            }
+        }
+
+        .popular_bott{
+            // padding: 0 48px;
+            width: 291px;
+            height: 58px;
+
+            
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border: 1.5px solid rgba(39, 45, 49, 0.1);
+            border-radius: 16px;
+            box-sizing: border-box;
+
+            span{
+                color: rgb(39, 45, 49);
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 26px;
+                letter-spacing: 0%;
+            }
+
+            i{
+                margin-left: 10px;
+                width: 36px;
+                height: 36px;
+
+                display: flex;
+                align-items: center;
+            }
+
+            
+
+
+
+
+
+        }
+    }
+}
 
 
