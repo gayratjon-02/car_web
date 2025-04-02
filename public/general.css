@@ -52,7 +52,7 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.navbar_frame .nav_right span {
+.navbar_frame .nav_right span a {
   color: rgb(39, 45, 49);
   font-family: Poppins;
   font-size: 26px;
