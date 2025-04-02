@@ -22,7 +22,7 @@ p{
 
 
 
-
+// Navbar
 .navbar_frame{
     padding: 0 100px 0 0 ;
     margin-top: 20px;
@@ -91,6 +91,215 @@ p{
 }
 
 
+
+
+// Footer
+
+
+footer{
+    width: 100%;
+    height: auto;
+
+    .container{
+        margin: 0 auto;
+        height: 700px;
+
+        flex-direction: column;
+        align-items: center;
+
+        background: rgb(39, 45, 49);
+        
+        .footer_top{
+            margin-top: 80px;
+            width: 1720px;
+            height: 428px;
+
+            display: flex;
+            justify-content: space-between;
+
+            .footer_info_box{
+                width: 288px;
+                height: 202px;
+
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                .info_top{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+
+                    .blue_color{
+                        width: 48px;
+                        height: 48px;
+                        background: rgb(48, 131, 255);
+                    }
+
+                    span{
+                        margin-left: 16px;
+                        color: rgb(255, 255, 255);
+                        font-family: DINPro;
+                        font-size: 32px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: 0%;
+                    }
+                }
+
+                p{
+                    margin-top: 32px;
+                    color: rgba(255, 255, 255, 0.7);
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+
+                }
+
+                .info_number{
+                    margin-top: 32px;
+                    width: 100%;
+
+                    i{
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    span{
+                        color: rgb(255, 255, 255);
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 30px;
+                        letter-spacing: 0%;
+                    }
+
+
+
+
+                }
+                
+
+
+            }
+
+
+            .same_box3{
+                width: 260px;
+                height: 366px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                strong{
+                    margin-bottom: 48px;
+                    color: rgb(255, 255, 255);
+                    font-family: Poppins;
+                    font-size: 26px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    letter-spacing: 0%;
+                }
+
+                p{
+                    color: rgba(255, 255, 255, 0.7);
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                }
+
+
+
+
+            }
+
+
+            .last_box{
+                width: 288px;
+                height: 136px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span{
+                    color: rgb(255, 255, 255);
+                    font-family: Poppins;
+                    font-size: 26px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    letter-spacing: 0%;
+
+                }
+
+                .social_box{
+                    width: 100%;
+                    height: 48px;
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    i{
+                        width: 48px;
+                        height: 48px;
+                        font-size: 28px;
+                        color: rgba(255, 255, 255, 0.614);
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        box-sizing: border-box;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        border-radius: 41px;
+
+
+                    }
+                }
+
+
+
+            }
+
+
+        }
+
+
+        .footer_line{
+            margin: 80px 0 40px;
+            width: 100%;
+
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+        }
+
+
+        .footer_bott{
+            width: 479px;
+            height: 30px;
+
+            span{
+                color: rgba(255, 255, 255, 0.7);
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+
+            }
+        }
+
+
+
+    }
+}
 
 
 
