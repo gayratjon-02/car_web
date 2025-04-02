@@ -1,0 +1,161 @@
+//  order style started
+
+
+
+
+// order frame
+
+
+.order_frame{
+    width: 100%;
+    height: auto;
+
+    .container{
+        height: 2044px;
+        background: rgb(229, 229, 229);
+        margin: 0 auto;
+
+        .order_left{
+            padding: 100px;
+            width: 500px;
+            height: auto;
+
+            box-sizing: border-box;
+            background: rgba(255, 255, 255, 0.677);
+
+            .left_wrapper{
+                width: 300px;
+                height: 1155px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .order_type{
+                    width: 265px;
+                    height: 472px;
+
+
+                    form{
+                        width: 100%;
+                        height: 100%;
+
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        strong{
+                            color: rgb(39, 45, 49);
+                            font-family: Poppins;
+                            font-size: 26px;
+                            font-weight: 700;
+                            line-height: 40px;
+                            letter-spacing: 0%;
+
+                        }
+
+                        .order_input_box{
+                            width: 311PX;
+                            height: 40px;
+
+                            display: flex;
+                            align-items: center;
+                            // justify-content: space-between;
+
+                            input{
+                                width: 32px;
+                                height: 32px;
+                                box-sizing: border-box;
+                                border: 2.5px solid rgba(39, 45, 49, 0.5);
+                                border-radius: 5.45px;
+
+                            }
+
+                            label{
+                                margin-left: 10px;
+                                // margin-right: 50px;
+                                font-family: Poppins;
+                                font-size: 26px;
+                                font-weight: 500;
+                                line-height: 40px;
+                                letter-spacing: 0px;
+
+                                span{
+                                margin-left: 20px;
+
+                                    color: rgba(39, 45, 49, 0.5);
+                                }
+
+                            }
+                            
+
+
+
+                        }
+
+
+                    }
+
+
+                }
+
+
+                .order_price{
+                    width: 300px;
+                    height: 155px;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    strong{
+                        color: rgb(39, 45, 49);
+                        font-family: Poppins;
+                        font-size: 26px;
+                        font-weight: 700;
+                        line-height: 40px;
+                        letter-spacing: 0%;
+                    }
+
+                    input{
+                        width: 100%;
+                        height: 26px;
+                        border-radius: 16px;
+
+                        background: rgba(48, 131, 255, 0.5);
+                    }
+
+                    span{
+                        color: rgba(39, 45, 49, 0.5);
+                        font-family: Poppins;
+                        font-size: 26px;
+                        font-weight: 500;
+                        line-height: 40px;
+                        letter-spacing: 0px;
+
+                    }
+                    
+
+
+                }
+
+
+
+
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+    }
+
+
+}
