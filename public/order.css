@@ -94,5 +94,142 @@
   line-height: 40px;
   letter-spacing: 0px;
 }
+.order_frame .container .order_right {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 1280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.order_frame .container .order_right .order_top_wrapper {
+  position: relative;
+  width: 100%;
+  height: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box {
+  padding: 32px;
+  width: 622px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 32px;
+  box-shadow: 0px 32px 64px -32px rgba(6, 30, 45, 0.1);
+  background: rgb(255, 255, 255);
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .pickup_title {
+  margin-left: 24px;
+  width: 124px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .pickup_title .mark_box {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid rgba(48, 131, 255, 0.579);
+  background: rgba(48, 131, 255, 0.274);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .pickup_title .mark_box .little_mark_box {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(48, 131, 255);
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .pickup_title span {
+  margin-left: 8px;
+  color: rgb(39, 45, 49);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper {
+  margin-top: 32px;
+  width: 600px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper .locTime_box {
+  width: 187px;
+  height: 54px;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid rgba(39, 45, 49, 0.246);
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper .locTime_box strong {
+  margin-bottom: 8px;
+  color: rgb(39, 45, 49);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper .locTime_box .select_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper .locTime_box .select_box span {
+  color: rgba(39, 45, 49, 0.5);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.order_frame .container .order_right .order_top_wrapper .pick_up_box .locTime_wrapper .locTime_box .select_box select {
+  width: 22px;
+  height: 22px;
+  border: none;
+  margin-left: 8px;
+}
+.order_frame .container .order_right .order_top_wrapper .middle_pick_image {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  position: absolute;
+  right: 608px;
+  bottom: 43px;
+}
+.order_frame .container .order_right .products_frame {
+  margin-top: 40px;
+}
+.order_frame .container .order_right .products_frame .products_wrapper {
+  width: 1280px;
+  height: 1630px;
+  display: flex;
+  flex-direction: column;
+}
+.order_frame .container .order_right .products_frame .products_wrapper .products_main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.order_frame .container .order_right .products_frame .products_wrapper .products_main .cars_box {
+  margin-bottom: 40px;
+}
+.order_frame .container .order_right .products_frame .products_wrapper .show_box {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=order.css.map */
